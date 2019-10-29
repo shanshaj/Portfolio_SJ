@@ -1,0 +1,344 @@
+@import 'reset.css';
+
+html {
+    font-size: 13px;
+    line-height: 21pt;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+}
+
+h1 { 
+    font-family: 'roboto', sans-serif;
+    font-size: 5.5em;
+    font-weight: 500;
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    line-height: 2em;
+    /*color:darkslategray;*/
+}
+
+h2 {
+    font-size: 4em;
+    font-weight:800;
+    padding-bottom: .5em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: .5em;
+    padding-top: 1em;
+    color: #224477;
+}
+
+h4 {
+    font-size:1.2em;
+    font-weight: 500;
+    line-height: 1.3em; 
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: .5em 0;
+    padding-top: 1em;
+    color: #03E991;
+}
+
+h6{
+    font-size: 1.2em;
+    line-height: 1.3em; 
+    font-weight: 600;
+    padding: 1em 0; 
+    color: #707070;
+}
+
+p, em {
+    font-size: 1.2em;
+    line-height: 1.3em; 
+    padding-bottom: .5em;
+}
+
+.clear {
+    clear: both;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 3em;
+}
+
+/*=========BIG STRUCTURE==========*/
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-leftside {
+    width: 250px;
+    align-content: stretch;
+    position:fixed;
+    top:0;
+}
+
+.flex-rightside {
+    padding-left: 2em;
+    width: 80%;  
+    margin-left: 250px;   
+}
+
+.flower{
+    will-change: transform; 
+    transition:transform 1.2s ease-in-out;
+    transition-timing-function: cubic-bezier(.28,.63,.77,.92)
+    
+}
+
+/*======NAVIGATION======*/
+
+.navigation {
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+nav {
+    text-align:left;
+    padding-top: 2em;
+}
+nav ul li {
+    display:inline;
+    background: #03E991;
+    margin-right: 20px;
+    padding-top: 4px;
+}
+
+nav ul li a {
+    font-size: 1.5em;
+    font-weight: 500;
+    color:black;
+    display: inline-block;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+/*    letter-spacing: 20px;*/
+    color: rgba(255, 255, 255, 1);
+    transition: 0.5s;
+}
+
+nav.gallery {
+    text-align: right;
+    display: block;
+    margin-right: 20px;
+}
+
+
+/*======BODY======*/
+.heading {
+    margin-top: 100px;
+}
+
+.intro {
+    font-size: 1.2em;
+}
+
+.introduction {
+    margin-bottom: 220px;
+}
+/*============Gallery============*/
+
+.mainContent div {
+    padding: 0;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+div.withme img {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+}
+
+div.gallery div {
+    padding: 0;
+}
+
+/*====*/
+.scope {
+    text-align: left;
+    margin: 50px 0;
+    border-bottom: 1px solid #006677;
+}
+.m {
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.content {
+    padding: 50px;
+}
+
+.content_text {
+    margin: 3% 25%;
+}
+
+/*
+.navigation {
+    background: rgba(255, 255, 255, 0.5)
+}
+*/
+
+.one {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content_text img{
+    display: block;
+    margin:auto;
+    width: 80%;
+}
+
+/*
+.inner_text {
+    margin-right: 30%;
+}
+*/
+
+.content li{
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+.content ul {
+    padding-left: 1.5em;
+    padding-bottom: .5em;
+}
+
+.content_img img {
+    width: 500px;
+    display: inline-block;
+    margin: auto;
+}
+
+.content_img_center img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.content_img_center {
+    text-align: center;
+}
+
+img.i1, img.i2 {
+    width: 50%;
+}
+
+img.i3 {
+    width: 70%;
+    margin-top: 50px
+}
+
+.content_img {
+    margin-bottom: 100px;
+}
+
+.features img{
+    width: 550px;
+}
+
+.features {
+    margin-bottom: 100px;
+}
+
+.text2 {
+    margin-top: 100px;
+}
+
+.text3 {
+    margin-top: 150px;
+}
+footer p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #707070;
+}
+
+.inline-text {
+    border-left: 2px solid #03E991;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.inline-text p{
+    padding-left: 1em;
+}
+
+img.hundred {
+    padding: 0;
+    width: 100%;
+}
+
+img.design-process{
+    width: 80%;
+    padding: 50px 0;
+}
+
+/*============MEDIA=============*/
+
+@media screen and (max-width:1000px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+.content_text {
+    margin: 3% 10%;
+}  
+    
+    .one {
+        width: 80%;
+    }
+    
+    img.i1 {
+        width: 80%;
+    }
+    
+    .navigation {
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.7);
+    height: 100px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    font-weight: 500;
+    color:black;
+    display: inline-block;
+    padding: 5px 5px 10px 5px;
+    letter-spacing: 3px;
+}    
+    
+    nav ul li {
+    margin-right: 0px;
+}
+    
+     div.withme {
+       margin-top: 100px; 
+    }
+    
+    
+}

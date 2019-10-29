@@ -1,0 +1,396 @@
+@import 'reset.css';
+
+html {
+    font-size: 13px;
+    line-height: 21pt;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+}
+
+h1 { 
+    font-family: 'roboto', sans-serif;
+    font-size: 5.5em;
+    font-weight: 500;
+    padding-bottom: .5em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    line-height: 2em;
+    /*color:darkslategray;*/
+}
+
+h2 {
+    font-size: 4em;
+    font-weight:800;
+    padding-bottom: .5em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: .5em;
+    padding-top: 1em;
+    color: #3C8EC8;
+}
+
+h4 {
+    font-size:1.2em;
+    font-weight: 500;
+    line-height: 1.3em; 
+}
+
+h5 {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: .5em 0;
+    padding-top: 1em;
+    color: #3C8EC8;
+}
+
+h6{
+    font-size: 1.2em;
+    line-height: 1.3em; 
+    font-weight: 600;
+    padding: 1em 0; 
+    color: #707070;
+}
+
+p, em {
+    font-size: 1.2em;
+    line-height: 1.3em; 
+    padding-bottom: .5em;
+}
+
+.clear {
+    clear: both;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 3em;
+}
+
+/*======NAVIGATION======*/
+
+.navigation {
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+nav {
+    text-align:left;
+    padding-top: 2em;
+}
+nav ul li {
+    display:inline;
+    background: #3C8EC8;
+    margin-right: 20px;
+    padding-top: 4px;
+}
+
+nav ul li a {
+    font-size: 1.5em;
+    font-weight: 500;
+    color:white;
+    display: inline-block;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+/*    letter-spacing: 20px;*/
+    color: black;
+    transition: 0.5s;
+}
+
+nav.gallery {
+    text-align: right;
+    display: block;
+    margin-right: 20px;
+}
+
+
+/*======BODY======*/
+.heading {
+    margin-top: 100px;
+}
+
+.intro {
+    font-size: 1.2em;
+}
+
+.introduction {
+    margin-bottom: 220px;
+}
+/*============Gallery============*/
+
+.mainContent div {
+    padding: 0;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+div.withme img {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+}
+
+div.gallery div {
+    padding: 0;
+}
+
+/*====*/
+.scope {
+    text-align: left;
+    margin: 50px 0;
+    border-bottom: 1px solid #006677;
+}
+.m {
+    margin-left: 5%;
+    margin-bottom: 50px;
+}
+
+.content {
+    padding: 50px;
+}
+
+.content_text {
+    margin: 3% 25%;
+}
+
+/*
+.navigation {
+    background: rgba(255, 255, 255, 0.5)
+}
+*/
+
+.one {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.content_text img{
+    display: block;
+    margin:auto;
+    width: 80%;
+}
+
+/*
+.inner_text {
+    margin-right: 30%;
+}
+*/
+
+.content li{
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+.content ul {
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.content_img img {
+    width: 500px;
+    display: inline-block;
+    margin: auto;
+}
+
+.content_img_center img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.content_img_center {
+    text-align: center;
+}
+
+img.i1, img.i2 {
+    width: 600px;
+}
+
+img.i3 {
+    width: 800px;
+    margin-top: 50px
+}
+
+.content_img {
+    margin-bottom: 100px;
+}
+
+.features img{
+    width: 550px;
+}
+
+.features {
+    margin-bottom: 100px;
+}
+
+.text2 {
+    margin-top: 100px;
+}
+
+.text3 {
+    margin-top: 150px;
+}
+footer p {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #707070;
+}
+
+.inline-text {
+    border-left: 2px solid #3C8EC8;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.inline-text p {
+    padding-left: 1em;
+}
+
+.inline-text h6{
+    padding: 1em;
+    background: #E8E8E8;
+}
+
+.inline-text ul{
+    padding: 1em 1em 1em 3em;
+    background: #E8E8E8;
+}
+
+.inline-text ul li {
+    padding-bottom: .5em;
+}
+
+img.hundred {
+    padding: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/*==========Slide Show==========*/
+
+/*
+.homepageimage {
+    width: 45vw;
+    margin-left: 1em;
+}
+*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* .mySlides {display:none;} */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+   background-color: rgba(225,225,225,0.5);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+
+/*============MEDIA=============*/
+
+@media screen and (max-width:1000px) {
+
+}
+
+@media screen and (max-width: 750px) {
+
+.content_text {
+    margin: 3% 10%;
+}
+    
+.one {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+    
+    .navigation {
+    position: fixed;
+    left: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.7);
+    height: 100px;
+    overflow: hidden;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    font-weight: 500;
+    color:white;
+    display: inline-block;
+    padding: 5px 5px 10px 5px;
+    letter-spacing: 3px;
+}    
+    
+    nav ul li {
+    margin-right: 0px;
+}
+     div.withme {
+       margin-top: 100px; 
+    }
+    
+    
+}
